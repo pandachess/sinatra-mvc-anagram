@@ -1,9 +1,9 @@
 <div>
 <h1>Anagrams for <%= "#{@word}" %></h1>
 
-<ul>
+<ul class="list-unstyled">
 	<% @anagrams.each do |a| %>
-	<%= "#{a}" %>
+	<li><%= a %></li>
 	<% end %>
 </ul>
 <div/>
