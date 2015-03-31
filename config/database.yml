@@ -1,5 +1,6 @@
 production:
   url: <%= ENV['DATABASE_URL'] %>
+  
 development:
   adapter: postgresql
   database: anagram_development
