@@ -1,4 +1,7 @@
 class Word < ActiveRecord::Base
+	
+	validates_presence_of :text
+
 	before_create :add_letters
 
 	def add_letters
